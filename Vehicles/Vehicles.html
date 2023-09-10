@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="./img/nissan-logo1-1.png">
+    <title>Vehicles</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Vehicles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Step1 sec-->
+    <section>
+        <div class="container">
+            <span class="l">___</span><br>
+            <span class="size">CHOOSE YOUR NISSAN</span><br>
+            <span class="s1">Shop the complete Nissan model lineup, then select and build your perfect new
+                vehicle.</span><br><br><br>
+
+            <!-- Collapse content-->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <span id="size">6 Nissan Models Available</span>
+                    </div>
+                    <div class="col-2 ">
+                        <span class="d-inline-flex gap-1">
+                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fa-solid fa-list" style="color: #ff0000;"></i> CHOOSE CAR TYPE
+                            </button>
+                    </div>
+                </div>
+                </span>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body backg">
+                        <div class="row">
+                            <div class="col-2 btn btn-outline-dark" id="all">ALL VEHICLES</div>
+                            <div id="hide" class="col-2 btn btn-outline-dark btt1 ">Passenger Vehicles</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Cars sec-->
+    <section>
+        <div class="container sec5">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./img/sunny.png" width="350" height="200" alt="">
+                    <a href="../sunny/sunny.html">SUNNY ></a><br>
+                    <span>Starting from</span>
+                    <p>EGP 485,400 <i class="fa-solid fa-circle-info" style="color: #ff0000;"></i></p>
+                    <hr>
+                </div>
+                <div class="col-3">
+                    <img src="./img/sentra.png" width="350" height="200" alt="">
+                    <a href="../sentra/sentra.html">SENTRA ></a><br>
+                    <span>Starting from</span>
+                    <p>EGP 740,500 <i class="fa-solid fa-circle-info" style="color: #ff0000;"></i></p>
+                    <hr>
+                </div>
+                <div class="col-3">
+                    <img src="./img/sentra PREMIUM.png" width="340" height="200" alt="">
+                    <a href="../sentra/sentra.html">SENTRA PREMIUM ></a><br>
+                    <span>Starting from</span>
+                    <p>EGP 1,000,000 <i class="fa-solid fa-circle-info" style="color: #ff0000;"></i></p>
+                    <hr>
+                </div>
+                <div class="col-3" id="juke">
+                    <img src="./img/juke.png" width="410" height="200" alt="">
+                    <a href="../juke/juke.html">JUKE ></a><br>
+                    <span>Starting from</span>
+                    <p>EGP 1,400,000 <i class="fa-solid fa-circle-info" style="color: #ff0000;"></i></p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3" id="QASHQAI">
+                    <img src="./img/ALL-NEW QASHQAI.png" width="350" height="200" alt="">
+                    <a href="../qashkai/qashkai.html">QASHQAI ></a><br>
+                    <span>Starting form</span>
+                    <p>EGP 1,700,000 <i class="fa-solid fa-circle-info" style="color: #ff0000;"></i></p>
+                    <hr>
+                </div>
+                <div class="col-3" id="patrol">
+                    <img src="./img/patrol.png" width="370" height="200" alt="">
+                    <a href="../patrol/patrol.html">patrol ></a><br>
+                    <span>Starting form</span>
+                    <p>EGP 2,000,000 <i class="fa-solid fa-circle-info" style="color: #ff0000;"></i></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../Bootstrap/jquery-3.7.0.min.js"></script>
+    <script src="../Bootstrap/js/popper.js"></script>
+    <script src="../Bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./Vehicles.js"></script>
+</body>
+
+</html>

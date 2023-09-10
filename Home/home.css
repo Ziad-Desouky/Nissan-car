@@ -1,0 +1,263 @@
+.navbg {
+  background-image: url(../Home/img/sky\ line.jpg);
+  height: 737px;
+  background-repeat: no-repeat;
+}
+.logo {
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.navitems {
+  margin-left: 700px;
+  margin-top: 10px;
+}
+.navcontent {
+  list-style: none;
+  display: flex;
+}
+.navcontent li {
+  margin-right: 20px;
+}
+#marquee {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 30px;
+  width: 225px;
+  font-size: 2em;
+}
+#marquee a {
+  text-decoration: none;
+  color: red;
+}
+.btnlog a {
+  text-decoration: none;
+  color: white;
+}
+.btnlog {
+  background-color: red;
+  width: 100%;
+}
+
+.la {
+  text-decoration: none;
+  color: white;
+}
+.sec1 {
+  color: white;
+  margin-top: 180px;
+  margin-left: 70px;
+}
+.sec1 a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+.sec1 h1 {
+  font-size: 4em;
+}
+.sec2,.sec3,.sec4,.box {
+  margin-top: 30px;
+}
+.mmmm {
+  margin-right: 20px;
+}
+.zz a:hover {
+  color: red;
+  border-color: red;
+}
+.r {
+  color: red;
+  font-weight: bold;
+}
+.hh {
+  font-weight: bold;
+}
+.s {
+  font-size: 15px;
+}
+#c {
+  color: red;
+  font-size: 2em;
+}
+.sec4 {
+  text-align: center;
+}
+.sec4 h1,h2 {
+  text-align: center;
+}
+.sec4 span {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.b {
+  font-weight: bolder;
+}
+.l {
+  font-size: 3em;
+  color: red;
+}
+.size {
+  font-size: 30px;
+}
+.s1 {
+  font-weight: lighter;
+}
+.backg {
+  background-color: rgb(224, 223, 223);
+}
+.btt1 {
+  margin-left: 318px;
+}
+.sec5 a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.sec5 span {
+  font-weight: lighter;
+  font-size: 12px;
+}
+.sec5 p {
+  color: red;
+  font-size: 20px;
+}
+.mm {
+  float: right;
+}
+.box {
+  display: flex;
+}
+.mz {
+  width: 800px;
+  background-color: rgb(231, 230, 230);
+  padding-top: 115px;
+}
+.type {
+  margin-left: 150px;
+}
+.mz span {
+  font-weight: bolder;
+}
+.mz p {
+  font-size: 30px;
+  font-weight: 200;
+}
+#k {
+  font-weight: lighter;
+}
+.sec6 p,
+.sec6 span,
+.sec6 a {
+  margin-left: 70px;
+}
+.sec6 span {
+  font-weight: bold;
+}
+.sec6 p {
+  font-size: 25px;
+}
+.sec6 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+.a6:hover {
+  color: red;
+}
+#book,
+#book1 {
+  margin: 0;
+}
+#book {
+  font-weight: normal;
+}
+.sec7 {
+  text-align: center;
+  margin-top: 133px;
+}
+.sec7 i {
+  font-size: 4em;
+}
+.sec7,
+.sec8 a {
+  text-decoration: none;
+  color: black;
+}
+.sec7 a:hover {
+  color: red;
+}
+.sec7 u {
+  color: white;
+}
+.sec7 p {
+  color: black;
+}
+.sec7 u:hover {
+  color: red;
+}
+.sec7 p:hover {
+  color: red;
+}
+.sec8 {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+/************************************************************************/
+.Fot a {
+  text-decoration: none;
+}
+.top-fot {
+  background-color: #252525;
+  height: 60px;
+}
+.content1 {
+  padding-top: 15px;
+}
+.content1 a {
+  color: #b8b6c1;
+  font-weight: bolder;
+  display: inline flex;
+  font-size: smaller;
+}
+.content1 span {
+  color: #f2dfde;
+  font-size: smaller;
+}
+.content1 p {
+  color: white;
+  font-weight: bold;
+}
+.mid-fot {
+  background-color: #1a1a1a;
+  height: 300px;
+}
+.mid-fot ul {
+  list-style: none;
+  color: white;
+  line-height: 2;
+}
+.content2 {
+  padding-top: 40px;
+}
+.mid-fot a {
+  color: #8a8a8a;
+}
+.SOCIAL li {
+  display: inline-flex;
+}
+.SOCIAL i {
+  font-size: 20px;
+  margin-left: 8px;
+}
+.Fot a:hover {
+  color: red;
+}
+.fot-bot {
+  background-color: black;
+  height: 60px;
+}
+.fot-bot pre {
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}

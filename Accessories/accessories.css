@@ -1,0 +1,256 @@
+/* nav */
+
+.navbg
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(./imges/car-accessories-with-copy-space.jpg);
+    height: 300px;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.navitems{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.navcontent{
+    list-style: none;
+    display: flex;
+}
+.navcontent li{
+    margin-right: 20px;
+}
+#marquee{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 30px ;
+    width: 225px;
+    font-size: 2em;
+}
+#marquee a{
+    text-decoration: none;
+    color: red;
+}
+.btnlog {
+    background-color: red;
+    width: 100%;
+  }
+  .zz a:hover {
+    color: red;
+    border-color: red;
+  }
+
+/* ANIMATION */
+
+.text-area
+{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.text-area span
+{
+    color: red;
+    opacity: 0;
+    transform: translate(0,-100px) rotate(360deg) scale(0);
+    animation: animate 5s forwards;
+}
+
+.text-area span
+{
+    display: inline-block;
+}
+
+.text-area span:nth-of-type(2)
+{
+    animation-delay: .1s;
+}
+
+.text-area span:nth-of-type(3)
+{
+    animation-delay: .2s;
+}
+
+.text-area span:nth-of-type(4)
+{
+    animation-delay: .3s;
+}
+
+
+.text-area span:nth-of-type(5)
+{
+    animation-delay: .4s;
+}
+
+#xxvv{
+    padding: 68px 0 0 80px;
+}
+
+.text-area span:nth-of-type(6)
+{
+    animation-delay: .5s;
+}
+
+
+.text-area span:nth-of-type(7)
+{
+    animation-delay: .6s;
+}
+
+
+.text-area span:nth-of-type(8)
+{
+    animation-delay: .7s;
+}
+
+
+.text-area span:nth-of-type(9)
+{
+    animation-delay: .8s;
+}
+
+
+.text-area span:nth-of-type(10)
+{
+    animation-delay: .9s;
+}
+
+.text-area span:nth-of-type(11)
+{
+    animation-delay: 1s;
+}
+
+.text-area span:nth-of-type(12)
+{
+    animation-delay: 1.1s;
+}
+
+@keyframes animate
+{
+    30%
+    {
+        transform: translate(0,-50px) rotate(180deg) scale(1);
+    }
+    60%
+    {
+        transform: translate(0,20px) rotate(0deg) scale(.8);
+    }
+    100%
+    {
+        transform: translate(0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+/* divs */
+.mmzz
+{
+    display: flex;
+}
+.mm
+{
+    width: 800px;
+}
+.mz 
+{
+    background-color: rgb(228, 227, 227);
+}
+h1 
+{
+    /* text-align: center; */
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.btn-1
+{
+    margin-left: 80px;
+}
+h3 
+{
+    padding-left: 80px;
+    color: red;
+}
+.sp
+{
+    color: red;
+}
+.zzmm
+{
+   margin-left: 566px;
+   padding-bottom: 5px;
+}
+.con1 
+{
+    padding-left: 80px;
+}
+img
+{
+    transition: all 1s ease-in-out;
+}
+img:hover
+{
+    transform: scale(0.9);
+}
+
+/************************/
+.Fot a{
+    text-decoration: none;
+}
+.top-fot{
+    background-color: #252525;
+    height: 60px;
+}
+.content1{
+    padding-top: 15px;
+}
+.content1 a{
+    color: #b8b6c1;
+    font-weight: bolder;
+    display: inline flex;
+    font-size: smaller;
+}
+.content1 span{
+    color: #f2dfde;
+    font-size: smaller;
+}
+.content1 p{
+    color: white;
+    font-weight: bold;
+}
+.mid-fot{
+    background-color: #1a1a1a;
+    height: 300px;
+}
+.mid-fot ul{
+    list-style: none;
+    color: white;
+    line-height: 2;
+}
+.content2{
+    padding-top: 40px;
+}
+.mid-fot a{
+    color: #8a8a8a;
+}
+.SOCIAL li{
+    display:inline-flex;
+}
+.SOCIAL i{
+    font-size: 20px;
+    margin-left: 8px;
+}
+.Fot a:hover{
+    color: red;
+}
+.fot-bot{
+    background-color: black;
+    height: 60px;
+}
+.fot-bot pre{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}

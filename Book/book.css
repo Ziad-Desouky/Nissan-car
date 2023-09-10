@@ -1,0 +1,147 @@
+.navbg{
+  background-color: #1a1a1a;
+}
+.logo {
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+  .navitems {
+    margin-left: 700px;
+    margin-top: 10px;
+  }
+  .navcontent {
+    list-style: none;
+    display: flex;
+  }
+  .navcontent li {
+    margin-right: 20px;
+  }
+  #marquee {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 30px;
+    width: 225px;
+    font-size: 2em;
+  }
+  #marquee a {
+    text-decoration: none;
+    color: red;
+  }
+  .btnlog a {
+    text-decoration: none;
+    color: white;
+  }
+  .btnlog {
+    background-color: red;
+    width: 100%;
+  }
+  .zz a:hover {
+    color: red;
+    border-color: red;
+  }
+.content{
+    margin-top: 100px;
+    
+    color: black;
+}
+.content h1{
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.zzzmmm{
+    margin-left: 280px;
+}
+#text1{
+    padding-top: 15px;
+    font-weight: 800;
+    color: red;
+    width: 100%;
+    border-right:5px solid red;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+     typing 2s steps(37),
+     cursor 0.4s step-end infinite alternate;
+}
+/* For Cursor Blinking */
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from{width: 0;}
+}
+
+#text2{
+    padding-top: 20px;
+    text-align: center;
+}
+#text3{
+text-align: center;
+}
+.botttt{
+    padding-bottom: 120px;
+}
+.content h4{
+    font-weight: lighter;
+}
+/************************************************************************/
+.Fot a {
+    text-decoration: none;
+  }
+  .top-fot {
+    background-color: #252525;
+    height: 60px;
+  }
+  .content1 {
+    padding-top: 15px;
+  }
+  .content1 a {
+    color: #b8b6c1;
+    font-weight: bolder;
+    display: inline flex;
+    font-size: smaller;
+  }
+  .content1 span {
+    color: #f2dfde;
+    font-size: smaller;
+  }
+  .content1 p {
+    color: white;
+    font-weight: bold;
+  }
+  .mid-fot {
+    background-color: #1a1a1a;
+    height: 300px;
+  }
+  .mid-fot ul {
+    list-style: none;
+    color: white;
+    line-height: 2;
+  }
+  .content2 {
+    padding-top: 40px;
+  }
+  .mid-fot a {
+    color: #8a8a8a;
+  }
+  .SOCIAL li {
+    display: inline-flex;
+  }
+  .SOCIAL i {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .Fot a:hover {
+    color: red;
+  }
+  .fot-bot {
+    background-color: black;
+    height: 60px;
+  }
+  .fot-bot pre {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+  }
+  
